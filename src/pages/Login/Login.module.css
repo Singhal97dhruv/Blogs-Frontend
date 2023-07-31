@@ -1,0 +1,20 @@
+.page{
+    background: #48dbfb;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    padding: 400px;
+    display: flex;
+    /* width: ; */
+}
+.logo{
+    display: flex;
+    gap: .6rem;
+    height: 4rem;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    font-size: 1rem;
+    color: yellow;
+    border-radius: 10px 10px 0 0;
+}

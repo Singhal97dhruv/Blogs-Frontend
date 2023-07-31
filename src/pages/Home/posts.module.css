@@ -1,0 +1,12 @@
+/* .post_container{
+    text-decoration: none;
+    color: black;
+    background-color: #48dbfb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} */
+.post_container{
+    margin-top: 5rem;
+}

@@ -1,0 +1,54 @@
+.header{
+    width: 100%;
+    height: 5rem;
+    background-color: black;
+
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}   
+.logo{
+    padding: 1rem;
+}
+.logo >a{
+    display: flex;
+    gap: .6rem;
+    align-items: center;
+}
+.logoText{
+    color: red;
+}
+.perma_links{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: space-between;
+}
+.perma_links:last-child{
+padding-right: 2rem;
+}
+.perma_links>a{
+    color: white;
+}
+.lnk{
+    position: relative;
+    font-weight: 300;
+    font-size: medium;
+}
+.lnk:before{
+    content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: red;
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+}
+.lnk:hover:before {
+    visibility: visible;
+    width: 100%;
+  }

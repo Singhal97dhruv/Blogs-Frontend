@@ -1,0 +1,83 @@
+.post_container{
+    text-decoration: none;
+    color: black;
+    /* background-color: #48dbfb; */
+    background: url('./engin-akyurt-Hlkuojv_P6I-unsplash.jpg')  no-repeat fixed center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards{
+    /* background-color: #108ca7; */
+    text-decoration: none;
+    color: inherit;
+    background-color: #0abde3;
+    width: 90%;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    border-radius: 2rem;
+    /* height: 25rem; */
+    
+}
+.cards:hover{
+    /* transform: translateZ(20rem); */
+    /* transform: translateZ(-9.7rem); */
+
+    /* transition: ease-in-out 0.3s; */
+}
+.upper_content{
+    display: flex;
+    /* justify-content: space-between; */
+    
+    margin-top: 1rem;
+    margin-left: 1.8rem;
+    color: black;
+    
+}
+.title{
+    font-size: 2rem;
+    font-weight: 600;
+}
+.content{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+        padding: 1rem;
+        color: black;
+}
+.content>img{
+    width: 80%;
+    height: 300px;
+    /* aspect-ratio: 1/1; */
+    object-fit: cover;
+    border-radius: 2rem;
+    margin-top: auto;
+    margin-bottom: auto;
+
+}
+.content>p{
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: start;
+    font-size: x-large;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    /* -webkit-line-clamp: 7;  */
+    -webkit-box-orient: vertical;
+}
+.lower_content{
+    display: flex;
+    justify-content: space-between;
+    /* margin-bottom: 1rem; */
+    padding: .5rem 1.5rem;
+    font-size: 1.2rem;
+    color: #576574;
+    
+}
+.lower_content>h3{
+    color: #341f97;
+}
